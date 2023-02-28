@@ -117,10 +117,9 @@ section#extra > #tituloextra {
 section#extra > #lista {
     list-style: inside;
     list-style-type: initial;
+    columns: 2;
 }
-section#extra > div > ul  {
-    display: inline-block;
-}
+
 footer {
     text-align: center;
 }
