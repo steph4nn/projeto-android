@@ -43,6 +43,7 @@ header {
 }
 header > h1{
     padding-top: 20px;
+    font-size: 3em;
 }
 header > p {
     padding: 20px;
@@ -84,6 +85,7 @@ nav > a:hover{
     text-align: center;
     font-family: idroid;
     color: var(--cor2);
+    font-size: 1.5em;
 } 
 section#principal > .titulos {
     font-family: idroid;
@@ -99,6 +101,7 @@ section#extra {
     min-width: none;
     margin: auto;
     padding-top: 0;
+    padding-bottom: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.377);
 }
@@ -112,6 +115,7 @@ section#extra > #tituloextra {
     font-size: 1.2em;
     margin-top: 10px;
     padding: 7px;
+    
     
 }
 section#extra > #lista {
@@ -155,7 +159,7 @@ a.externo::after {
     content: '\00A0\1F680';
 }
 img#contraste {
-    width: 40px;
-    margin-bottom: -10px;
+    width: 25px;
+    margin-bottom: -5px;
     
 }
